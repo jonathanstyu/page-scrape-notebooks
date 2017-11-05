@@ -1,1 +1,18 @@
+## Jupyter Notebooks for Page Scraping
+
 I was working on a reddit scraper to download data. It never came of anything but I managed to pick up a few decent techniques using python and beautifulsoup to parse out HTML. So when it came to be that I was asked to scrape some data out of a few web pages, figured I could use the knowledge from that reddit scraper for it. 
+
+Being in charge of finding leads, lot of the work that I ended up doing has to do with parsing HTML on web pages to get structured data out of those pages. 
+
+Each page is different depending on how the data was presented. 
+
+## Tools Used: 
+* urllib
+* BeautifulSoup 
+* Pandas
+* Selenium with Google Chrome for screen scraping 
+
+I am rather proud of the ASIS screen scraper, which goes to a web page, presents it for me to log in, and then uses Selenium to move through all the pages until the end. Then afterwards, I can use BeautifulSoup and Pandas to gather the data and export to CSV. 
+
+## Next to do
+They have a new Headless Chrome API that I would like to use some day but as long as Selenium works fine.
